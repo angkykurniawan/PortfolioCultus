@@ -5,7 +5,7 @@ def merge(file1, file2, output):
         with open(f, "r") as file:
             for line in file:
                 k, v = line.strip().split(":", 1)
-                data[k] = v  # overwrite dengan yang terbaru
+                data[k] = v  # Overwrite Data
 
     sorted_data = sorted(data.items())
 
