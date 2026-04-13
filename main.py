@@ -8,8 +8,8 @@ db.put("c", "3")
 db.put("d", "4")
 db.put("e", "5")  
 
-print(db.get("a"))  # Hasilnya harus 1
+print(db.get("a"))  # The result should be a
 
 db.delete("a")
 
-print(db.get("a"))  # Hasilnya harus none
+print(db.get("a"))  # The result should be none
